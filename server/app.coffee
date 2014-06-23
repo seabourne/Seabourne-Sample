@@ -33,6 +33,4 @@ app.use router
 # serve client static files
 app.use express.static __dirname + '/../_public'
 
-console.dir __dirname + '/../_public'
-
 module.exports = app

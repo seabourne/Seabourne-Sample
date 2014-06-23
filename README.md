@@ -46,6 +46,10 @@ From the root of the project:
 
 `grunt`
 
+Once running, the UI is accessible at:
+
+[http://localhost:3000](http://localhost:3000)
+
 ### TDD
 
 While the server is running, modifications to the server's source code or its tests will trigger the tests for the application.
