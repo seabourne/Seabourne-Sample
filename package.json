@@ -1,0 +1,32 @@
+{
+    "name": "seabourne-dev-test",
+    "version": "0.0.1",
+    "scripts": {
+        "testAndWatch": "./node_modules/.bin/grunt testAndWatch",
+        "start": "./node_modules/.bin/grunt"
+    },
+    "dependencies": {
+        "underscore": "*",
+        "express": "*",
+        "body-parser": "*",
+        "moment": "*",
+        "mocha": "*",
+        "grunt-cli": "*",
+        "grunt": "*",
+        "supertest": "*",
+        "should": "*",
+        "async": "*",
+        "grunt-mocha-test": "*",
+        "grunt-express-server": "*",
+        "grunt-contrib-watch": "*",
+        "grunt-contrib-concat": "*",
+        "grunt-contrib-copy": "*",
+        "grunt-browserify": "*",
+        "browserify": "*",
+        "coffeeify": "*",
+        "coffee-script": "*",
+        "jquery": "*",
+        "backbone": "*",
+        "mongoose": "*"
+    }
+}

@@ -1,0 +1,30 @@
+#LogEntryCollectionView {
+    padding: 2em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#log-entry-input-container {
+    text-align: center;
+    padding: 1em;
+}
+
+#log-entry-input {
+    width: 325px;
+}
+
+.log-entry {
+    padding: 1em;
+}
+
+.log-entry-text {
+    border-right: dashed 1px #DDDDDD;
+}
+
+.log-entry-created-at {
+    border-right: dashed 1px #DDDDDD;
+}
+
+.log-entry:nth-child(odd) {
+    background: #DDDDDD;
+}

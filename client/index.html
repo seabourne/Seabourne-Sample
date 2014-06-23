@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+    <link href="css/styles.css" rel="stylesheet">
+</head>
+<body>
+<div id="LogEntryCollectionView" class="container col-md-5 form-horizontal"></div>
+</body>
+<script type="text/javascript" src="js/main.js"></script>
+<script id="LogEntryCollectionView-template" type="text/template">
+    <div id="log-entry-input-container" class="form-group">
+        <label for="log-entry-input" class="col-md-4 control-label">New Log Entry</label>
+        <div class="col-md-8">
+            <input type="text" id="log-entry-input" class="form-control"/>
+        </div>
+    </div>
+    <div id="log-entry-collection-container">
+        <div class="row">
+            <div class="log-entry-text col-md-6">Entry Text</div>
+            <div class="log-entry-created-at col-md-4">Created At</div>
+            <div class="log-entry-delete col-md-2">Delete</div>
+        </div>
+        <% _.each(entries, function(entry) { %>
+        <div data-target="<%=entry._id%>" class="log-entry row">
+            <div class="log-entry-text col-md-6"><%=entry.text%></div>
+            <div class="log-entry-created_at col-md-4"><%=entry.created_at%></div>
+            <div class="log-entry-delete col-md-2">
+                <input type="button" value="X" class="delete-button" />
+            </div>
+        </div>
+        <% }); %>
+    </div>
+</script>
+</html>
