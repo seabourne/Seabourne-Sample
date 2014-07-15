@@ -44,7 +44,7 @@ Once all of your dependencies are installed and you've cloned the repository, ru
 
 From the root of the project:
 
-`grunt`
+`npm start`
 
 Once running, the UI is accessible at:
 
@@ -56,7 +56,7 @@ While the server is running, modifications to the server's source code or its te
 
 To run the tests and watch for changes without running the server, you can also run:
 
-`grunt test:server`
+`npm test`
  
 ## Fixing A Bug
 

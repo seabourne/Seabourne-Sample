@@ -2,7 +2,7 @@
     "name": "seabourne-dev-test",
     "version": "0.0.1",
     "scripts": {
-        "testAndWatch": "./node_modules/.bin/grunt testAndWatch",
+        "test": "./node_modules/.bin/grunt test",
         "start": "./node_modules/.bin/grunt"
     },
     "dependencies": {
