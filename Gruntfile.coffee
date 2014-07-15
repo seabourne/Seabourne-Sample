@@ -80,4 +80,4 @@ module.exports = (grunt) ->
   grunt.registerTask 'dev:client', [ 'build:client', 'watch:client' ]
   grunt.registerTask 'build:client', [ 'browserify', 'copy' ]
 
-  grunt.registerTask 'test', [ 'mochaTest' ]
+  grunt.registerTask 'test', [ 'mochaTest', 'watch:server' ]
