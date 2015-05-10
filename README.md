@@ -26,7 +26,7 @@ Install with package of your choice e.g.:
     
 ### Checkout Git repository
 
-`git clone https://github.com/seabourne/coding-exercise`
+`git clone https://github.com/seabourne/Seabourne-Sample`
 
 #### Gittin' Git
 
